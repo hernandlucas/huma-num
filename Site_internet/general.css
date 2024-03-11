@@ -1,13 +1,19 @@
 header{
-    background-image : linear-gradient(to right, #e24749, #c20407) ;
+    background-image : linear-gradient(to right, #f14e51, #970508) ;
     display: flex ;
-    justify-content: center ;
+    justify-content: space-around;
 }
 
-.liens{
+
+.headerliens{
     color:white ;
     margin: 10px ;
     font-size : 30px ;
+}
+
+.liens2{
+    color:white ;
+    font-size: 25px;
 }
 
 h1 {
@@ -32,19 +38,39 @@ h3 {
     margin:30px ;
 }
 
+.para2{
+    font-size: 20px ;
+    text-align: justify;
+    margin:30px ;
+}
+
+.CV{
+    font-size:20px;
+    margin :30px;
+}
+
+.lienCV{
+    font-weight : 900 ;
+}
+
 .bloc_chantier {
     display : flex ;
     background-color:orange ;
+    border: 5px orangered solid ;
     justify-content: center ;
+    margin-bottom: 20px ;
 }
 
 .chantier {
     font-size:25px ;
 }
 
-footer{
-    background-image : linear-gradient(to right, #e24749, #c20407) ;
+footer {
+    background-image : linear-gradient(to right, #f14e51, #970508) ;
     display: flex ;
-    justify-content: center ;
-    gap:10px ;
+    flex-direction: column ;
+    align-items:center ;
+    padding : 15px ;
+    justify-content: space-around ;
 }
+
